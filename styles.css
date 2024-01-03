@@ -1,0 +1,74 @@
+body {
+    font-family: 'Algerian', sans-serif;
+    background-color: #f4f4f4;
+    margin: 10;
+    padding: 25;
+}
+
+.todo-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgb(255, 7, 7);
+    padding: 300px;
+    border-radius: 5px;
+}
+
+.todo-header {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.task {
+    padding: 10px;
+    border-bottom: 3px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.task:last-child {
+    border-bottom: none;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.task-actions button {
+    cursor: pointer;
+    padding: 6px 11px;
+    border: none;
+    border-radius: 3px;
+}
+
+.task-actions button.delete {
+    background-color: #ff4d4d;
+    color: #fff;
+}
+
+.task-actions button.complete {
+    background-color: #0026cf;
+    color: #fff;
+}
+
+.add-task-form {
+    display: flex;
+    gap: 10px;
+}
+
+.add-task-form input {
+    flex: 1;
+    padding: 8px;
+}
+
+.add-task-form button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
